@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Aboutimg from "../../Assets/Banner/banner.jpeg"
+import Aboutimg from "../../Assets/About/about.jpg"
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -14,15 +14,13 @@ const About = () => {
 
     return (
         <div className="aboutUs">
-            <div className="about-title">
-                <h1>DLF Camellias 2</h1>
-                {/* <p>Rera No : UPRERAPRJ585534</p> */}
-                <span>Luxury Residences Sector 52 , Gurgaon</span>
-                <h4>4 , 5  & 6 BHK Apartments / Penthouse</h4>
-            </div>
+           
             <div className="about-main">
                 <div className="about-items">
                     <div className="about-left">
+                    <div className="about-title">
+                        <h3>About</h3>
+                    </div>
                         <div className="about-detail">
                             {/* <h3>FAIRFOX EON NOIDA, Sector 140 Noida Expressway</h3> */}
                             <p>DLF Andheri Mumbai is a brand newly launched ultra-luxury residences that offer lavish 2 BHK and 3 BHK homes with futuristic measures and modern features. The project is helmed by the notable real estate developer DLF Group with an aim to provide lavish living space for the discerning elite few.</p>

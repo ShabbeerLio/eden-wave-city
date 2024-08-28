@@ -20,43 +20,12 @@
 }
 
 .about-left {
-  width: 50%;
+  width: 60%;
 }
 
 .about-title {
-  text-align: center;
-}
-.about-title h1 {
-  color: #212121;
-  font-size: 36px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  margin: 0;
-}
-.about-title p {
-  color: #C5705D;
-  font-size: 15px;
-  margin: 0;
-}
-.about-title span {
-  color: rgb(68, 68, 68);
-  font-size: 15px;
-  line-height: 35px;
-  font-weight: bold;
-}
-
-.about-title h4 {
-  color: #C5705D;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-  padding-bottom: 10px;
-}
-.about-title h4 span {
-  color: #C5705D;
-  font-size: 35px;
-  font-weight: bold;
-  margin: 0;
+  text-align: start;
+  margin-bottom: 1rem;
 }
 
 .about-detail h3 {
@@ -75,7 +44,7 @@
 }
 
 .about-right {
-  width: 50%;
+  width: 40%;
 }
 
 .about-right img {
@@ -92,19 +61,6 @@
   margin-top: 20px;
 }
 
-/* .about-button a p {
-  margin: 0;
-  font-size: 20px;
-  padding: 15px 25px;
-  border-radius: 8px;
-  background-color: #283664;
-  transition: .3s ease-in-out;
-} */
-/* .about-button a p:hover {
-  background-color: #ffb000;
-  color: black;
-} */
-
 .about-button a {
   text-decoration: none;
   color: white;
@@ -113,7 +69,7 @@
 
 .about-button a {
   padding: 10px;
-  background: #C5705D;
+  background: #c5705d;
   position: relative;
   display: flex;
   place-content: center;
@@ -129,7 +85,7 @@
   font-size: 20px;
 }
 
-.about-button a::before {
+/* .about-button a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -137,6 +93,38 @@
   height: 50%;
   animation: rotBGimg 3s linear infinite;
   transition: all 0.2s linear;
+} */
+
+.about-detail-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 1rem; */
+  border: 1px solid rgb(233, 239, 242);
+}
+.about-detail-box h5 {
+  margin-top: 10px;
+}
+.about-detail-box span {
+  color: #c5705d;
+}
+
+.about-card {
+  background-color: #ebcec6;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.about-card2 {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 @keyframes rotBGimg {
@@ -152,7 +140,7 @@
 .about-button a::after {
   content: "";
   position: absolute;
-  background: #C5705D;
+  background: #c5705d;
   inset: 5px;
   border-radius: 8px;
 }

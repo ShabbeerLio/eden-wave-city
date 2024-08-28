@@ -58,7 +58,7 @@ const Location = (props) => {
     return (
         <div className='location'>
             <div className="Page-title">
-                <h1>DLF Andheri Mumbai Location</h1>
+                <h1>DLF Camellias 2 Location</h1>
             </div>
             <div className="location-box">
                 <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3769.1745533127564!2d72.82989887520712!3d19.143835082074805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA4JzM3LjgiTiA3MsKwNDknNTYuOSJF!5e0!3m2!1sen!2sin!4v1721906393007!5m2!1sen!2sin"></iframe>

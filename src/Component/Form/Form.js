@@ -35,10 +35,10 @@ const Form = () => {
         }, 2500);
 
         emailjs.sendForm(
-            'service_xinyskt',
-            'template_5zjmknr',
+            // 'service_xinyskt',
+            // 'template_5zjmknr',
             form.current,
-            'nyXj91Uc4Bu3-hlO8'
+            // 'nyXj91Uc4Bu3-hlO8'
         )
             .then((result) => {
                 console.log(result.text);

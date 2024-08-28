@@ -1,16 +1,24 @@
 import React from 'react'
 import "./HomePlan.css"
-import HomePlanData from './HomePlanData'
-import HomePlanCard from './HomePlanCard'
+import Form from '../Form/Form'
+import homepim from "../../Assets/Masterplan/homeplan.webp"
 
 const HomePlan = () => {
 
     return (
         <div className='HomePlan'>
             <div className='HomePlan-main'>
-                {HomePlanData.map((item ,index) => (
-                    <HomePlanCard home={item} key={index}/>
-                ))}
+                <div className="homeplan-box">
+                    <div className="homeplan-left">
+                        <img src={homepim} alt="" />
+                        
+                    </div>
+                    <div className="homeplan-right">
+                        <div className="walkthrough-form">
+                            <Form />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

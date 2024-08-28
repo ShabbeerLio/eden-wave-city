@@ -1,4 +1,3 @@
-import { FaCar } from "react-icons/fa";
 import { IoLibraryOutline ,IoCarSportOutline } from "react-icons/io5";
 import { PiSecurityCameraDuotone ,PiWarehouseLight ,PiSwimmingPoolLight  } from "react-icons/pi";
 import { LiaBedSolid } from "react-icons/lia";
@@ -16,7 +15,7 @@ const AmenitiesData = [
         id: 2,
         title: "Library Area",
         cover: <IoLibraryOutline />,
-        color:"#e9eff2"
+        color:"#f0e4e1"
     },
     {
         id: 3,
@@ -28,13 +27,13 @@ const AmenitiesData = [
         id: 4,
         title: "Smart House",
         cover: <PiWarehouseLight   />,
-        color:"#e9eff2"
+        color:"#f0e4e1"
     },
     {
         id: 5,
         title: "Swimming Pool",
         cover: <PiSwimmingPoolLight  />,
-        color:"#e9eff2"
+        color:"#f0e4e1"
     },
     {
         id: 6,
@@ -46,7 +45,7 @@ const AmenitiesData = [
         id: 7,
         title: "Kids Play",
         cover: <TbPlayBasketball />,
-        color:"#e9eff2"
+        color:"#f0e4e1"
     },
     {
         id: 8,

@@ -7,6 +7,7 @@ import Walkthrough from '../../Component/Walkthrough/Walkthrough'
 import HomePlan from '../../Component/HomePlan/HomePlan'
 import { useLocation } from 'react-router-dom'
 import Amenities from '../../Component/Amenities/Amenities'
+import Plans from '../../Component/Plans/Plans'
 
 const Home = (props) => {
     /* global dataLayer */
@@ -67,7 +68,8 @@ const Home = (props) => {
             <Amenities/>
             <Walkthrough />
             <Highlights />
-            {/* <HomePlan /> */}
+            <Plans/>
+            <HomePlan />
         </div>
     )
 }
