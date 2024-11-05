@@ -66,7 +66,7 @@ const Form = () => {
     
     return (
         <>
-            <h4 className='form-title'>Interested in DLF Camellias 2?</h4>
+            <h4 className='form-title'>Interested in Eden Wave City?</h4>
             {messageSent ? (
                 <div className='form-message'>
                     <p>Message sent successfully!</p>

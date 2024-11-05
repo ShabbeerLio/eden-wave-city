@@ -20,7 +20,7 @@
 .Amenities-box {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
- gap: 1rem;
+  gap: 1rem;
 }
 
 .Amenities-card {
@@ -32,7 +32,7 @@
   border: 1px solid #e9eff2;
   border-radius: 8px;
 }
-.Amenities-card p svg{
+.Amenities-card p svg {
   font-size: 60px;
 }
 
@@ -46,7 +46,11 @@
   .Amenities-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid #e9eff2;
   }
+}
 
+@media only screen and (max-width: 680px) {
+  .Amenities-card {
+    padding: 2rem 1rem;
+  }
 }

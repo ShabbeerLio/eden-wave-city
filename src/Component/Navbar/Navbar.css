@@ -154,8 +154,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #3C552D; /* Blue color */
-  border-bottom: 2px solid #3C552D; /* Underline */
+  color: #D2AC55; /* Blue color */
+  border-bottom: 2px solid #D2AC55; /* Underline */
 }
 
 .call-button p {
@@ -173,7 +173,7 @@
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   transition: all 0.3s;
-  background-color: #3C552D;
+  background-color: #D2AC55;
   border-radius: 5px;
   margin-left: 20px;
 }
@@ -257,7 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3C552D;
+  background-color: #D2AC55;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -269,7 +269,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #3C552D;
+  background-color: #D2AC55;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -286,7 +286,7 @@
 }
 
 .fix-icon-enquery p {
-  background-color: #3C552D;
+  background-color: #D2AC55;
   padding: 12px 24px;
   color: white;
   border-radius: 8px;
@@ -297,7 +297,7 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .fix-icon-enquery p:hover {
-  background-color: #3C552D;
+  background-color: #D2AC55;
   color: black;
 }
 
@@ -354,6 +354,11 @@
 }
 
 @media only screen and (max-width: 990px) {
+
+  .company-logo {
+    width: 10%;
+  }
+
   .nav-action {
     flex-flow: wrap;
   }
@@ -381,6 +386,9 @@
     top: 0;
   }
 
+  .company-logo {
+    width: 28%;
+  }
   .company-logo img {
     max-height: 80px;
   }
