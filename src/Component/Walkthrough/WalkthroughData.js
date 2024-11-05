@@ -1,12 +1,12 @@
 const WalkThroughData = [
   {
     id: 1,
-    cover: require("../../Assets/Walkthrough/gallery1.webp"),
+    cover: require("../../Assets/Walkthrough/gallery4.jpg"),
     alttag: "DLF Andheri Mumbai",
   },
   {
     id: 2,
-    cover: require("../../Assets/Walkthrough/gallery2.webp"),
+    cover: require("../../Assets/Walkthrough/gallery2.jpg"),
     alttag: "DLF Andheri Mumbai",
   },
   {

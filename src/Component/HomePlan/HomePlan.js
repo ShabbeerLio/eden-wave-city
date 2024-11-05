@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HomePlan.css"
 import Form from '../Form/Form'
-import homepim from "../../Assets/Masterplan/homeplan.webp"
+import homepim from "../../Assets/Masterplan/houseplan.jpg"
 
 const HomePlan = () => {
 

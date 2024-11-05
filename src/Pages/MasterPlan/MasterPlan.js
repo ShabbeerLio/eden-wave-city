@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./MasterPlan.css"
 import { useLocation } from 'react-router-dom';
-import masterimg from '../../Assets/Masterplan/masterplan.png';
+import masterimg from '../../Assets/Masterplan/masterplan.jpg';
 
 const MasterPlan = (props) => {
 
@@ -60,7 +60,7 @@ const MasterPlan = (props) => {
         <div className='MasterPlan'>
            <div className='SiteVisit-main'>
                 <div className="Page-title">
-                    <h1>DLF Camellias 2 Master Plan</h1>
+                    <h1>Eden wave city Master Plan</h1>
                 </div>
                 <div className="sitevisit-box">
                        <img src={masterimg} alt="" />

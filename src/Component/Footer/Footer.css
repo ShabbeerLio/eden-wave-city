@@ -1,7 +1,7 @@
 .Footer {
   width: 100%;
   background: rgb(255, 255, 255);
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, #c5705d 100%);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, #3C552D 100%);
 }
 
 .Footer-main,
@@ -23,7 +23,7 @@
   height: 2px;
   width: 25%;
   border-radius: 50px;
-  background-color: #c5705d;
+  background-color: #3C552D;
 }
 
 .footer-box {
@@ -35,7 +35,7 @@
 }
 
 .footer-box img {
-  width: 70%;
+  width: 30%;
   margin-bottom: 2rem;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .footer-item ul li a:hover {
-  color: #c5705d;
+  color: #3C552D;
 }
 .footer-item ul li a svg {
   margin-right: 12px;

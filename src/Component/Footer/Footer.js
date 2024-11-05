@@ -5,8 +5,6 @@ import footerimg from "../../Assets/logo.png"
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 
-
-
 const Footer = (props) => {
 
     const [showFullText, setShowFullText] = useState(false);
@@ -112,7 +110,7 @@ const Footer = (props) => {
                     <div className="footer-item-policy">
                         <Link onClick={toTop} to={"/disclaimer"}>Disclaimer & Privacy Policy</Link>
                     </div>
-                    <p>© 2024 DLF Camellias 2</p>
+                    <p>© 2024 Eden Wave City</p>
                 </div>
             </div>
         </div>

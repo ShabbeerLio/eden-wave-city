@@ -1,7 +1,7 @@
 .Plans {
   padding: 6rem 0rem;
   width: 100%;
-  background-color: #c5705d;
+  background-color: #3C552D;
 }
 
 .Plans-main {
@@ -18,7 +18,7 @@
 }
 .plans-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 .Plans-main img {
@@ -51,17 +51,19 @@
 }
 .plans-card-title p {
   color: white;
-  margin-top: 1rem;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 5px;
 }
-.plans-card-title p span {
+.plans-card-title h5 {
   color: #e6b16a;
-  margin-top: 1rem;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .plan-card-btn p {
-  background-color: #c5705d;
+  background-color: #3C552D;
   margin: 0;
   padding: 12px 20px;
   border-radius: 8px;

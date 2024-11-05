@@ -1,7 +1,7 @@
 .overview {
   padding: 3rem 0rem;
   width: 100%;
-  background-color: #C5705D;
+  background-color: #3C552D;
 }
 
 .about-main {
@@ -40,8 +40,9 @@
   color: white;
   font-size: 30px;
   line-height: 35px;
-  padding-bottom: 23px;
+  padding-bottom: 15px;
   font-weight: bold;
+  margin: 0;
 }
 
 .overview-detail p {

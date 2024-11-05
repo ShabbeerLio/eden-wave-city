@@ -80,7 +80,7 @@
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #ab987a;
+  background: #3C552D;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -154,8 +154,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #C5705D; /* Blue color */
-  border-bottom: 2px solid #C5705D; /* Underline */
+  color: #3C552D; /* Blue color */
+  border-bottom: 2px solid #3C552D; /* Underline */
 }
 
 .call-button p {
@@ -173,7 +173,7 @@
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   transition: all 0.3s;
-  background-color: #C5705D;
+  background-color: #3C552D;
   border-radius: 5px;
   margin-left: 20px;
 }
@@ -257,7 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #C5705D;
+  background-color: #3C552D;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -269,7 +269,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #C5705D;
+  background-color: #3C552D;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -286,7 +286,7 @@
 }
 
 .fix-icon-enquery p {
-  background-color: #C5705D;
+  background-color: #3C552D;
   padding: 12px 24px;
   color: white;
   border-radius: 8px;
@@ -297,7 +297,7 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .fix-icon-enquery p:hover {
-  background-color: #C5705D;
+  background-color: #3C552D;
   color: black;
 }
 

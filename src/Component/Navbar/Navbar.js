@@ -24,8 +24,6 @@ const Navbar = (props) => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-
-
     const handleLinkClick = (path) => {
         window.scrollTo({
             top: 0,
@@ -68,7 +66,7 @@ const Navbar = (props) => {
                                     <Link
                                         className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
                                         to="/"
-                                        // onClick={() => handleLinkClick('/')}
+                                    // onClick={() => handleLinkClick('/')}
                                     >
                                         {/* <h5>DLF Andheri Mumbai</h5> */}
                                         <img src={Logo} alt="grandthum bhutani" />

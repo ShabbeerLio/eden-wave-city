@@ -19,18 +19,18 @@
 
 .Amenities-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border: 1px solid #e9eff2;
+  grid-template-columns: repeat(5, 1fr);
+ gap: 1rem;
 }
 
 .Amenities-card {
-  /* background-color: gray; */
   padding: 3rem 2rem;
-  /* border: 1px solid gray; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid #e9eff2;
+  border-radius: 8px;
 }
 .Amenities-card p svg{
   font-size: 60px;

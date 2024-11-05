@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Plans.css"
-import floor1 from "../../Assets/Plan/floor-1.jpg"
+import floor1 from "../../Assets/Plan/plan1.jpg"
 import FormFloat from '../Navbar/FormFloat'
 
 const Plans = () => {
@@ -21,7 +21,9 @@ const Plans = () => {
                     <div className="plans-card">
                         <img src={floor1} alt="GODREJ JARDINIA Sector 146" />
                         <div className="plans-card-title" onClick={formIsOpen} >
-                            <p>4BHK @ <span>On Request</span></p>
+                            <p>3BHK Type 3</p>
+                            <p>1774 Sq.ft.</p>
+                            <h5>@ ₹ 1.41 Cr*</h5>
                             <div className="plan-card-btn">
                                 <p>Request Now</p>
                             </div>
@@ -30,21 +32,15 @@ const Plans = () => {
                     <div className="plans-card">
                         <img src={floor1} alt="GODREJ JARDINIA NOIDA" />
                         <div className="plans-card-title" onClick={formIsOpen} >
-                            <p>5BHK @ <span>On Request</span></p>
+                            <p>3BHK Type 4</p>
+                            <p>1750 Sq.ft.</p>
+                            <h5>@ ₹ 1.40 Cr*</h5>
                             <div className="plan-card-btn">
                                 <p>Request Now</p>
                             </div>
                         </div>
                     </div>
-                    <div className="plans-card">
-                        <img src={floor1} alt="GODREJ JARDINIA NOIDA, Sector 146" />
-                        <div className="plans-card-title" onClick={formIsOpen} >
-                            <p>6BHK @ <span>On Request</span></p>
-                            <div className="plan-card-btn">
-                                <p>Request Now</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             {formopen && (

@@ -24,6 +24,7 @@
   height: 100%;
   border-radius: 8px;
   object-fit: cover;
+  aspect-ratio: 3/2;
 }
 .homeplan-right {
   width: 55%;

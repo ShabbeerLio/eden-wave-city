@@ -1,12 +1,12 @@
 const GalleryData = [
     {
         id: 1,
-        cover: require("../../Assets/Walkthrough/gallery1.webp"),
+        cover: require("../../Assets/Walkthrough/gallery1.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
       {
         id: 2,
-        cover: require("../../Assets/Walkthrough/gallery2.webp"),
+        cover: require("../../Assets/Walkthrough/gallery2.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
       {
@@ -21,17 +21,17 @@ const GalleryData = [
       },
       {
         id: 5,
-        cover: require("../../Assets/Walkthrough/gallery5.webp"),
+        cover: require("../../Assets/Walkthrough/gallery5.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
       {
         id: 6,
-        cover: require("../../Assets/Walkthrough/gallery6.jpeg"),
+        cover: require("../../Assets/Walkthrough/gallery6.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
       {
         id: 7,
-        cover: require("../../Assets/Walkthrough/gallery7.webp"),
+        cover: require("../../Assets/Walkthrough/gallery7.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
       {
@@ -41,7 +41,7 @@ const GalleryData = [
       },
       {
         id: 9,
-        cover: require("../../Assets/Highlights/highlights.webp"),
+        cover: require("../../Assets/Highlights/highlights.jpg"),
         alttag: "DLF Andheri Mumbai",
       },
 ]

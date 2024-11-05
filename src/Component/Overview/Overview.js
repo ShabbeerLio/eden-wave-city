@@ -24,15 +24,15 @@ const Overview = () => {
                         <div className="about-detail-box">
                                 <div className="about-card">
                                     <span>Starting At</span>
-                                    <h5>70 Cr* Onwards</h5>
+                                    <h5>1.40 Cr* Onwards</h5>
                                 </div>
                                 <div className="about-card2">
                                     <span>Location</span>
-                                    <h5>At Sector 54, Gurugram</h5>
+                                    <h5>At NH 24, Ghaziabad</h5>
                                 </div>
                                 <div className="about-card2">
                                     <span>CONFIGURATIONS</span>
-                                    <h5>4 , 5 & 6 BHK APARTMENTS</h5>
+                                    <h5>3 BHK APARTMENTS</h5>
                                 </div>
                                 <div className="about-card">
                                     <span>Status</span>

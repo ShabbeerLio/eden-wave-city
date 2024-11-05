@@ -61,7 +61,7 @@ const PriceList = (props) => {
         <div className='PriceList'>
             <div className='SiteVisit-main'>
                 <div className="Page-title">
-                    <h1>DLF Camellias 2 Price List</h1>
+                    <h1>Eden wave city Price List</h1>
                 </div>
                 <div className="sitevisit-box">
                     <div className="sitevisit-item">
