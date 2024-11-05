@@ -61,7 +61,7 @@ const Location = (props) => {
                 <h1>DLF Camellias 2 Location</h1>
             </div>
             <div className="location-box">
-                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3769.1745533127564!2d72.82989887520712!3d19.143835082074805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA4JzM3LjgiTiA3MsKwNDknNTYuOSJF!5e0!3m2!1sen!2sin!4v1721906393007!5m2!1sen!2sin"></iframe>
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.134292585153!2d77.10470847536315!3d28.445367892555648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1fe7eeec1117%3A0xd4e174cc6293884e!2sC-5%2F2027%2C%20Park%20Dr%2C%20DLF%20Phase%205%2C%20Sector%2054%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1725532349776!5m2!1sen!2sin"></iframe>
             </div>
         </div>
     )

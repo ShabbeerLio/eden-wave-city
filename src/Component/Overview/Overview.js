@@ -18,8 +18,8 @@ const Overview = () => {
                             <h3>Overview</h3>
                         </div>
                         <div className="overview-detail">
-                            <p>This wiki is developed for DLF Andheri Mumbai, an elite residential development project developed in Mumbai. This new modern complex brings prestige, elegance, comfort and all the amenities required in today’s societies.</p>
-                            <p>Specially developed to fulfill the requirements of the modern city inhabitants, DLF Andheri Mumbai is developed to offer customers only the highest quality of living, completed with state-of-the-art options that may be accessed 24/7.</p>
+                            <p>DLF Camellias 2 forms part of the ultra-exclusive DLF Golf Course community, sprawled over hundreds of acres of greenery and open spaces. The project consists of ultra-luxurious apartments designed to offer complete comfort and privacy. The buildings are truly modern and aesthetic in every way, with each apartment offering a panoramic view of the DLF Golf and Country Club.</p>
+                            <p>It has a peaceful and secure atmosphere, modern facilities, and amenities required by today's families. Ideally set, this project caters to the needs of professionals, families, and retirees by providing proximity to major business houses, shopping areas, and quality educational institutions.</p>
                         </div>
                         <div className="about-detail-box">
                                 <div className="about-card">
@@ -28,7 +28,7 @@ const Overview = () => {
                                 </div>
                                 <div className="about-card2">
                                     <span>Location</span>
-                                    <h5>At Sector 54 , Gurgaon</h5>
+                                    <h5>At Sector 54, Gurugram</h5>
                                 </div>
                                 <div className="about-card2">
                                     <span>CONFIGURATIONS</span>

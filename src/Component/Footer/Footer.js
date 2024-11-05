@@ -56,7 +56,7 @@ const Footer = (props) => {
                         <h2>Contact Us</h2>
                         <div className="footer-contact">
                             <p><IoLocationOutline /></p>
-                            <p> Plot No.8, New Link Rd, Oshiwara, Adarsh Nagar, Jogeshwari West, Mumbai, Maharashtra 400047</p>
+                            <p>Plot No.5, Park Dr, DLF Phase 5, Sector 54, Gurugram, Haryana 122002</p>
                         </div>
                         <div className="footer-contact">
                             <p><MdOutlineMailOutline /></p>

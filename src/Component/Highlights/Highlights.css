@@ -30,7 +30,7 @@
 .highlights-left ul li{
   display: flex;
   padding-bottom: 10px;
-  align-items: center;
+  align-items: baseline;
   color: white;
 }
 .highlights-left ul{

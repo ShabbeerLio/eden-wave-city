@@ -23,8 +23,8 @@ const About = () => {
                     </div>
                         <div className="about-detail">
                             {/* <h3>FAIRFOX EON NOIDA, Sector 140 Noida Expressway</h3> */}
-                            <p>DLF Andheri Mumbai is a brand newly launched ultra-luxury residences that offer lavish 2 BHK and 3 BHK homes with futuristic measures and modern features. The project is helmed by the notable real estate developer DLF Group with an aim to provide lavish living space for the discerning elite few.</p>
-                            <p>Check out the high life from DLF Andheri Mumbai. These attributes accompanied by an excellent location, fabulous and luxurious facilities, and a rich program of a maisonette lifestyle makes this project an ideal choice for living. Live the easy, comfortable and thrilling life ever and face a new challenge each new day.</p>
+                            <p>DLF Camellias 2 is a luxury residential project located at the heart of Gurgaon. It has the ideal blend of luxury, comfort, and contemporary lifestyle. DLF is among the top names when it comes to real estate business houses, so this project will surely mark a change in the definition of luxury living since one can enjoy spacious apartments with world-class amenities and a serene environment. </p>
+                            <p>Located in Sector 42, Gurgaon, DLF Camellias 2 overlooks the surroundings with panache, hence becoming a haven for people desiring a serene and sophisticated lifestyle. The development offers a perfect example of how every small detail can be just right to offer the best standards of living in style and luxury.</p>
                         </div>
                         <div className="about-button">
                             <Link to="/site-visit" onClick={toTop}>

@@ -14,8 +14,8 @@ import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
-  const title = "DLF Andheri - New Launch Premium Residences At Mumbai"
-  const descriptions = "DLF Andheri Mumbai is an impending premium residences that provides 2 & 3 BHK ultra-luxury homes with 50+ niceties & impeccable features by DLF India."
+  const title = "DLF Camellias 2 Sector 54 Gurugram Price, Location and Floor Plan"
+  const descriptions = "Discover the price, location, and floor plan of DLF Camellias 2 in Sector 54, Gurugram. Stay updated with the latest news and launch details for this new residential project."
 
   // remove inspect and copy element
   //  useEffect(() => {
