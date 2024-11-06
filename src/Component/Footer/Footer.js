@@ -30,22 +30,22 @@ const Footer = (props) => {
                         <h2>Inportant Links</h2>
                         <ul>
                             <li>
-                                <Link to="/" onClick={toTop}>Home</Link>
+                                <Link to="/eden/" onClick={toTop}>Home</Link>
                             </li>
                             <li>
-                                <Link to="/gallery" onClick={toTop}>Gallery</Link>
+                                <Link to="/eden/gallery" onClick={toTop}>Gallery</Link>
                             </li>
                             <li>
-                                <Link to="/price-list" onClick={toTop}>Price List</Link>
+                                <Link to="/eden/price-list" onClick={toTop}>Price List</Link>
                             </li>
                             <li>
-                                <Link to="/master-plan" onClick={toTop}>Master Plan</Link>
+                                <Link to="/eden/master-plan" onClick={toTop}>Master Plan</Link>
                             </li>
                             <li>
-                                <Link to="/floor-plan" onClick={toTop}>Floor Plan</Link>
+                                <Link to="/eden/floor-plan" onClick={toTop}>Floor Plan</Link>
                             </li>
                             <li>
-                                <Link to="/site-visit" onClick={toTop}>Book a Site Visit</Link>
+                                <Link to="/eden/site-visit" onClick={toTop}>Book a Site Visit</Link>
                             </li>
                         </ul>
 
@@ -54,11 +54,11 @@ const Footer = (props) => {
                         <h2>Contact Us</h2>
                         <div className="footer-contact">
                             <p><IoLocationOutline /></p>
-                            <p>Plot No.5, Park Dr, DLF Phase 5, Sector 54, Gurugram, Haryana 122002</p>
+                            <p>NH 24, Ghaziabad, Uttar Pradesh</p>
                         </div>
                         <div className="footer-contact">
                             <p><MdOutlineMailOutline /></p>
-                            <p>info@dlfandherimumbai.com</p>
+                            <p>info@edenwavecity.com</p>
                         </div>
                         <div className="footer-contact">
                             <Link to='tel: +919999999999'>

@@ -14,8 +14,8 @@ import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
-  const title = "DLF Camellias 2 Sector 54 Gurugram Price, Location and Floor Plan"
-  const descriptions = "Discover the price, location, and floor plan of DLF Camellias 2 in Sector 54, Gurugram. Stay updated with the latest news and launch details for this new residential project."
+  const title = "Eden wave city , Ghaziabad Price, Location and Floor Plan"
+  const descriptions = "Eden wave city , Ghaziabad Price, Location and Floor Plan"
 
   // remove inspect and copy element
   //  useEffect(() => {
@@ -43,42 +43,42 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path="/"
+            path="/eden/"
             exact
             element={
               <Home title={title} descriptions={descriptions} />} />
           <Route
-            path="/gallery"
+            path="/eden/gallery"
             exact
             element={
               <Gallery title={title} descriptions={descriptions} />} />
           <Route
-            path="/price-list"
+            path="/eden/price-list"
             exact
             element={
               <PriceList title={title} descriptions={descriptions} />} />
           <Route
-            path="/master-plan"
+            path="/eden/master-plan"
             exact
             element={
               <MasterPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/floor-plan"
+            path="/eden/floor-plan"
             exact
             element={
               <FloorPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/location"
+            path="/eden/location"
             exact
             element={
               <Location title={title} descriptions={descriptions} />} />
           <Route
-            path="/site-visit"
+            path="/eden/site-visit"
             exact
             element={
               <SiteVisit title={title} descriptions={descriptions} />} />
           <Route
-            path="/disclaimer"
+            path="/eden/disclaimer"
             exact
             element={
               <Disclaimer title={title} descriptions={descriptions} />} />

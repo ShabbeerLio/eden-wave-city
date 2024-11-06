@@ -18,8 +18,8 @@ const Overview = () => {
                             <h3>Overview</h3>
                         </div>
                         <div className="overview-detail">
-                            <p>DLF Camellias 2 forms part of the ultra-exclusive DLF Golf Course community, sprawled over hundreds of acres of greenery and open spaces. The project consists of ultra-luxurious apartments designed to offer complete comfort and privacy. The buildings are truly modern and aesthetic in every way, with each apartment offering a panoramic view of the DLF Golf and Country Club.</p>
-                            <p>It has a peaceful and secure atmosphere, modern facilities, and amenities required by today's families. Ideally set, this project caters to the needs of professionals, families, and retirees by providing proximity to major business houses, shopping areas, and quality educational institutions.</p>
+                            <p>Eden Wave City is a well-planned apartment complex located in the vast master planned and digital city of Wave City in Ghaziabad. Situated on acres of apple-green landscape with a richly designed infrastructural structure, Eden Wave City furnishes a new-age living opportunity of comfort, luxury, and conservation. </p>
+                            <p>Licensed by state-of-the-art infrastructure, optimum location, and advanced architectural design, Eden Wave City represents the direction of ideal living standards for families and professionals. Eden Wave City is a potential area for buying property in NCR.</p>
                         </div>
                         <div className="about-detail-box">
                                 <div className="about-card">

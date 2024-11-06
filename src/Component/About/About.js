@@ -23,11 +23,11 @@ const About = () => {
                     </div>
                         <div className="about-detail">
                             {/* <h3>FAIRFOX EON NOIDA, Sector 140 Noida Expressway</h3> */}
-                            <p>DLF Camellias 2 is a luxury residential project located at the heart of Gurgaon. It has the ideal blend of luxury, comfort, and contemporary lifestyle. DLF is among the top names when it comes to real estate business houses, so this project will surely mark a change in the definition of luxury living since one can enjoy spacious apartments with world-class amenities and a serene environment. </p>
-                            <p>Located in Sector 42, Gurgaon, DLF Camellias 2 overlooks the surroundings with panache, hence becoming a haven for people desiring a serene and sophisticated lifestyle. The development offers a perfect example of how every small detail can be just right to offer the best standards of living in style and luxury.</p>
+                            <p>Eden Wave City we believe that a home is much more than walls around it; it is a place where everyday Ghaziabad, our residence plan intends life to be picturesque. Situated in the innovative Wave City Township in Ghaziabad, our residence plan intends to bring in a fashionable housing paradigm. While incorporating sustainability, smart city technologies, and a strong community feel, Eden Wave City combines the benefits of being a streamlined city within easy reach of a serene environment.</p>
+                            <p>We have planned the Apartments tactfully so that they start from 2BHK to lavish 3BHK Homes that present a sensationally upscale living in terms of aesthetics and facilities. People get numerous amenities such as landscaped lawns, brand-new gyms, spaces for children, round-the-clock security service, and many more, which pleasant life here, not just comfortable, but extraordinary.</p>
                         </div>
                         <div className="about-button">
-                            <Link to="/site-visit" onClick={toTop}>
+                            <Link to="/eden/site-visit" onClick={toTop}>
                                 <p>Interested in Site Visit ?</p>
                             </Link>
                         </div>

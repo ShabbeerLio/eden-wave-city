@@ -15,7 +15,7 @@ const Banner = () => {
                         <span>New Launch</span>
                         <h2>Eden Wave City</h2>
                         <h5>At NH 24, Ghazaibad</h5>
-                        <h5>Stunning architecture influenced by the timeless elegance of European design.</h5>
+                        <h5>Experience Modern Living at Eden Wave City: Your Dream Home Awaits</h5>
                         <p>Premium 3 BHK Residence | Price Starts <span> ₹ 1.40 Cr*</span> </p>
                         {/* <p>Possession in December 2028</p> */}
                     </div>
